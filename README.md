@@ -9,6 +9,7 @@
     - [Kata 1: extractBookNameFromArray](#kata-1-extractbooknamefromarray)
     - [Kata 2: sumNumbersFromArray](#kata-2-sumnumbersfromarray)
     - [Kata 3: findMaxNumberFromArray](#kata-3-findmaxnumberfromarray)
+    - [Kata 4: countHowManyTimesFromArray](#kata-4-counthowmanytimesfromarray)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -46,6 +47,12 @@ For more details, please refer to the [README](src/sumNumbersFromArray/README.md
 This exercise finds and returns the maximum number in an array of numbers.
 
 For more details, please refer to the [README](src/findMaxNumberFromArray/README.md) inside the `src/findMaxNumberFromArray` directory.
+
+### Kata 4: countHowManyTimesFromArray
+
+This exercise counts how many times each string appears in an array and returns an object with the counts.
+
+For more details, please refer to the [README](src/countHowManyTimesFromArray/README.md) inside the `src/countHowManyTimesFromArray` directory.
 
 ## Development
 

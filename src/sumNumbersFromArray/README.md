@@ -28,10 +28,7 @@ The function sumNumbersFromArray takes an array of numbers as input and returns 
 export const sumNumbersFromArray = (
   inputParams: Array<number> = initialObject,
 ): number => {
-  const sum = inputParams.reduce((acc, number) => {
-    acc = acc + number;
-    return acc;
-  });
+  const sum = inputParams.reduce((acc, number) => acc + number, 0);
 
   return sum;
 };

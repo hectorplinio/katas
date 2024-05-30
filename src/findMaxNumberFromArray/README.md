@@ -28,12 +28,10 @@ The function findMaxNumberFromArray takes an array of numbers as input and retur
 export const findMaxNumberFromArray = (
   inputParams: Array<number> = initialObject,
 ): number => {
-  const maxNumber = inputParams.reduce((acc, number) => {
-    if (number > acc) {
-      acc = number;
-    }
-    return acc;
-  });
+  const maxNumber = inputParams.reduce(
+    (acc, number) => (number > acc ? number : acc),
+    0,
+  );
 
   return maxNumber;
 };

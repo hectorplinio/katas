@@ -15,6 +15,8 @@
     - [Kata 7: mergeObjectsInArray](#kata-7-mergeObjectsInArray)
     - [Kata 8: filterObjects](#kata-8-filterobjects)
     - [Kata 9: simulateFishGrowth](#kata-9-simulatefishgrowth)
+    - [Kata 10: uniqueValues](#kata-1-uniquevalues)
+    - [Kata 11: keyValuePairsToObject](#kata-3-keyvaluepairstoobject)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -88,6 +90,18 @@ For more details, please refer to the [README](src/filterObjects/README.md) insi
 This exercise simulates the growth of a school of lanternfish over a given number of days based on their reproduction cycle.
 
 For more details, please refer to the [README](src/simulateFishGrowth/README.md) inside the `src/simulateFishGrowth` directory.
+
+### Kata 10: uniqueValues
+
+This exercise creates a new array that only contains unique values from a given array.
+
+For more details, please refer to the [README](src/uniqueValues/README.md) inside the `src/uniqueValues` directory.
+
+### Kata 11: keyValuePairsToObject
+
+This exercise creates an object from an array of key-value pairs.
+
+For more details, please refer to the [README](src/keyValuePairsToObject/README.md) inside the `src/keyValuePairsToObject` directory.
 
 ## Development
 

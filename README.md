@@ -8,6 +8,7 @@
   - [Usage](#usage)
     - [Kata 1: extractBookNameFromArray](#kata-1-extractbooknamefromarray)
     - [Kata 2: sumNumbersFromArray](#kata-2-sumnumbersfromarray)
+    - [Kata 3: findMaxNumberFromArray](#kata-3-findmaxnumberfromarray)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -39,6 +40,12 @@ For more details, please refer to the [README](src/extractBookNameFromArray/READ
 This exercise sums all numbers in an array and returns the total.
 
 For more details, please refer to the [README](src/sumNumbersFromArray/README.md) inside the `src/sumNumbersFromArray` directory.
+
+### Kata 3: findMaxNumberFromArray
+
+This exercise finds and returns the maximum number in an array of numbers.
+
+For more details, please refer to the [README](src/findMaxNumberFromArray/README.md) inside the `src/findMaxNumberFromArray` directory.
 
 ## Development
 

@@ -1,6 +1,6 @@
 const initialObject: Array<number> = [1, 2, 3, 4, 5, 6, 8, 4, 2];
 
-export const filterEvenNumberInArray = (
+export const filterEvenNumbers = (
   inputParams: Array<number> = initialObject,
 ): Array<number> => {
   const evenNumbers = inputParams.reduce(

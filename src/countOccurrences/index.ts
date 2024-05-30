@@ -7,7 +7,7 @@ const initialObject: Array<string> = [
   'apple',
 ];
 
-export const countHowManyTimesFromArray = (
+export const countOccurrences = (
   inputParams: Array<string> = initialObject,
 ): Record<string, number> => {
   const count = inputParams.reduce((acc, fruit) => {

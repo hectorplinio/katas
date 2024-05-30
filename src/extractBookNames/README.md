@@ -44,7 +44,7 @@ An array of strings, where each string is a book title extracted from the input 
 ### Code
 
 ```typescript
-export const extractBookNameFromArray = (
+export const extractBookNames = (
   inputParams: InputParams[] = initialObject,
 ): Array<string> => {
   const booksNames = inputParams.reduce(
@@ -58,7 +58,7 @@ export const extractBookNameFromArray = (
 
 ### Explanation
 
-The function extractBookNameFromArray performs the following steps:
+The function extractBookNames performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

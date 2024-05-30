@@ -1,4 +1,4 @@
-# Kata 5: flattenArray
+# Kata 5: flatten
 
 ## Exercise Statement
 
@@ -24,12 +24,12 @@ A single array of numbers containing all the numbers from the input arrays.
 
 ### Solution
 
-The function flattenArray takes an array of arrays of numbers as input and returns a single flattened array of numbers. The function uses the reduce method to concatenate all the sub-arrays.
+The function flatten takes an array of arrays of numbers as input and returns a single flattened array of numbers. The function uses the reduce method to concatenate all the sub-arrays.
 
 ### Code
 
 ```typescript
-export const flattenArray = (
+export const flatten = (
   inputParams: Array<Array<number>> = initialObject,
 ): Array<number> => {
   const booksNames = inputParams.reduce((acc, obj) => acc.concat(obj), []);
@@ -40,7 +40,7 @@ export const flattenArray = (
 
 ### Explanation
 
-The function flattenArray performs the following steps:
+The function flatten performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

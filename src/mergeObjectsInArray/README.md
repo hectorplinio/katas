@@ -1,4 +1,4 @@
-# Kata 7: convertToObjectAnArrayOfObjets
+# Kata 7: mergeObjectsInArray
 
 ## Exercise Statement
 
@@ -24,12 +24,12 @@ A single object that combines all the key-value pairs from the input array of ob
 
 ### Solution
 
-The function convertToObjectAnArrayOfObjets takes an array of objects as input and returns a single combined object. The function uses the reduce method to merge all the objects into one.
+The function mergeObjectsInArray takes an array of objects as input and returns a single combined object. The function uses the reduce method to merge all the objects into one.
 
 ### Code
 
 ```typescript
-export const convertToObjectAnArrayOfObjets = (
+export const mergeObjectsInArray = (
   inputParams: Array<Record<string, string | number>> = initialObject,
 ): Record<string, string | number> => {
   const finalObject = inputParams.reduce((acc, obj) => {
@@ -42,7 +42,7 @@ export const convertToObjectAnArrayOfObjets = (
 
 ### Explanation
 
-The function convertToObjectAnArrayOfObjets performs the following steps:
+The function mergeObjectsInArray performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

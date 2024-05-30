@@ -1,8 +1,8 @@
-import { flattenArray } from '.';
+import { flatten } from '.';
 
-describe('flattenArray ', () => {
+describe('flatten ', () => {
   it('Not passing input parameters', () => {
-    const result = flattenArray();
+    const result = flatten();
 
     expect(result).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
   });
@@ -14,7 +14,7 @@ describe('flattenArray ', () => {
       [6, 7, 8, 9],
       [1, 17, 38, 19],
     ];
-    const result = flattenArray(inputParams);
+    const result = flatten(inputParams);
 
     expect(result).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 17, 38, 19]);
   });

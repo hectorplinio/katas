@@ -1,4 +1,4 @@
-# Kata 2: sumNumbersFromArray
+# Kata 2: sumNumbers
 
 ## Exercise Statement
 
@@ -20,12 +20,12 @@ A single number representing the sum of all numbers in the input array.
 
 ### Solution
 
-The function sumNumbersFromArray takes an array of numbers as input and returns their sum. The function uses the reduce method to sum the numbers.
+The function sumNumbers takes an array of numbers as input and returns their sum. The function uses the reduce method to sum the numbers.
 
 ### Code
 
 ```typescript
-export const sumNumbersFromArray = (
+export const sumNumbers = (
   inputParams: Array<number> = initialObject,
 ): number => {
   const sum = inputParams.reduce((acc, number) => acc + number, 0);
@@ -36,7 +36,7 @@ export const sumNumbersFromArray = (
 
 ### Explanation
 
-The function sumNumbersFromArray performs the following steps:
+The function sumNumbers performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

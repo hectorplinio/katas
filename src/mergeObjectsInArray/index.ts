@@ -4,7 +4,7 @@ const initialObject: Array<Record<string, string | number>> = [
   { phone: '123456789', country: 'Spain' },
 ];
 
-export const convertToObjectAnArrayOfObjets = (
+export const mergeObjectsInArray = (
   inputParams: Array<Record<string, string | number>> = initialObject,
 ): Record<string, string | number> => {
   const finalObject = inputParams.reduce((acc, obj) => {

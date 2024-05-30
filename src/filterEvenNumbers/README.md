@@ -1,4 +1,4 @@
-# Kata 6: filterEvenNumberInArray
+# Kata 6: filterEvenNumbers
 
 ## Exercise Statement
 
@@ -20,12 +20,12 @@ A single array of numbers containing only the even numbers from the input array.
 
 ### Solution
 
-The function filterEvenNumberInArray takes an array of numbers as input and returns an array of even numbers. The function uses the reduce method to filter out the even numbers.
+The function filterEvenNumbers takes an array of numbers as input and returns an array of even numbers. The function uses the reduce method to filter out the even numbers.
 
 ### Code
 
 ```typescript
-export const filterEvenNumberInArray = (
+export const filterEvenNumbers = (
   inputParams: Array<number> = initialObject,
 ): Array<number> => {
   const evenNumbers = inputParams.reduce(
@@ -39,7 +39,7 @@ export const filterEvenNumberInArray = (
 
 ### Explanation
 
-The function filterEvenNumberInArray performs the following steps:
+The function filterEvenNumbers performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

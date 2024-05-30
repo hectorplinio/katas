@@ -4,7 +4,7 @@ const initialObject: Array<Array<number>> = [
   [6, 7, 8, 9],
 ];
 
-export const flattenArray = (
+export const flatten = (
   inputParams: Array<Array<number>> = initialObject,
 ): Array<number> => {
   const booksNames = inputParams.reduce((acc, obj) => acc.concat(obj), []);

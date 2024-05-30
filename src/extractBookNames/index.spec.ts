@@ -1,8 +1,8 @@
-import { extractBookNameFromArray, InputParams } from '.';
+import { extractBookNames, InputParams } from '.';
 
-describe('extractBookNameFromArray', () => {
+describe('extractBookNames', () => {
   it('Not passing input parameters', () => {
-    const booksNames = extractBookNameFromArray();
+    const booksNames = extractBookNames();
     expect(booksNames).toEqual([
       'The Lord of the rings',
       'The Hobbit',
@@ -38,7 +38,7 @@ describe('extractBookNameFromArray', () => {
         age: 22,
       },
     ];
-    const booksNames = extractBookNameFromArray(inputParams);
+    const booksNames = extractBookNames(inputParams);
 
     expect(booksNames).toEqual([
       'Don Quixote',

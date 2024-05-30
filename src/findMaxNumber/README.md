@@ -1,4 +1,4 @@
-# Kata 3: findMaxNumberFromArray
+# Kata 3: findMaxNumber
 
 ## Exercise Statement
 
@@ -20,12 +20,12 @@ A single number representing the maximum number in the input array.
 
 ### Solution
 
-The function findMaxNumberFromArray takes an array of numbers as input and returns the maximum number. The function uses the reduce method to find the maximum number.
+The function findMaxNumber takes an array of numbers as input and returns the maximum number. The function uses the reduce method to find the maximum number.
 
 ### Code
 
 ```typescript
-export const findMaxNumberFromArray = (
+export const findMaxNumber = (
   inputParams: Array<number> = initialObject,
 ): number => {
   const maxNumber = inputParams.reduce(
@@ -39,7 +39,7 @@ export const findMaxNumberFromArray = (
 
 ### Explanation
 
-The function findMaxNumberFromArray performs the following steps:
+The function findMaxNumber performs the following steps:
 
 -Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 -Reduce Method: It uses the reduce method on the inputParams array.

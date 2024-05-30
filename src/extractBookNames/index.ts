@@ -15,7 +15,7 @@ const initialObject: InputParams[] = [
   },
 ];
 
-export const extractBookNameFromArray = (
+export const extractBookNames = (
   inputParams: InputParams[] = initialObject,
 ): Array<string> => {
   const booksNames = inputParams.reduce(

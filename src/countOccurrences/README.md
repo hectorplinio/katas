@@ -1,4 +1,4 @@
-# Kata 4: countHowManyTimesFromArray
+# Kata 4: countOccurrences
 
 ## Exercise Statement
 
@@ -27,12 +27,12 @@ An object where the keys are the strings from the input array, and the values ar
 
 ### Solution
 
-The function countHowManyTimesFromArray takes an array of strings as input and returns an object with the counts. The function uses the reduce method to count the occurrences of each string.
+The function countOccurrences takes an array of strings as input and returns an object with the counts. The function uses the reduce method to count the occurrences of each string.
 
 ### Code
 
 ```typescript
-export const countHowManyTimesFromArray = (
+export const countOccurrences = (
   inputParams: Array<string> = initialObject,
 ): Record<string, number> => {
   const count = inputParams.reduce((acc, fruit) => {
@@ -46,7 +46,7 @@ export const countHowManyTimesFromArray = (
 
 ### Explanation
 
-The function countHowManyTimesFromArray performs the following steps:
+The function countOccurrences performs the following steps:
 
 - Parameters: It takes an optional parameter inputParams which defaults to initialObject.
 - Reduce Method: It uses the reduce method on the inputParams array.

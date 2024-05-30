@@ -1,8 +1,8 @@
-import { countHowManyTimesFromArray } from '.';
+import { countOccurrences } from '.';
 
-describe('countHowManyTimesFromArray', () => {
+describe('countOccurrences', () => {
   it('Not passing input parameters', () => {
-    const sum = countHowManyTimesFromArray();
+    const sum = countOccurrences();
     expect(sum).toEqual({ apple: 3, banana: 2, orange: 1 });
   });
 
@@ -24,7 +24,7 @@ describe('countHowManyTimesFromArray', () => {
       'grappes',
       'orange',
     ];
-    const sum = countHowManyTimesFromArray(inputParams);
+    const sum = countOccurrences(inputParams);
 
     expect(sum).toEqual({ apple: 6, banana: 4, orange: 3, grappes: 2 });
   });

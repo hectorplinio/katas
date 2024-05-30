@@ -1,8 +1,8 @@
-import { convertToObjectAnArrayOfObjets } from '.';
+import { mergeObjectsInArray } from '.';
 
-describe('convertToObjectAnArrayOfObjets', () => {
+describe('mergeObjectsInArray', () => {
   it('should return a combined object from default array', () => {
-    const result = convertToObjectAnArrayOfObjets();
+    const result = mergeObjectsInArray();
     expect(result).toEqual({
       name: 'John',
       surname: 'Doe',
@@ -19,7 +19,7 @@ describe('convertToObjectAnArrayOfObjets', () => {
       { age: 30, birth: '01/01/1990' },
       { phone: '987654321', country: 'USA' },
     ];
-    const result = convertToObjectAnArrayOfObjets(inputParams);
+    const result = mergeObjectsInArray(inputParams);
     expect(result).toEqual({
       name: 'Alice',
       surname: 'Smith',

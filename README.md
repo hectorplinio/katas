@@ -12,6 +12,7 @@
     - [Kata 4: countHowManyTimesFromArray](#kata-4-counthowmanytimesfromarray)
     - [Kata 5: flattenArray](#kata-5-flattenarray)
     - [Kata 6: filterEvenNumberInArray](#kata-6-filterevennumberinarray)
+    - [Kata 7: convertToObjectAnArrayOfObjets](#kata-7-converttoobjectanarrayofobjets)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -67,6 +68,12 @@ For more details, please refer to the [README](src/flattenArray/README.md) insid
 This exercise filters the even numbers from an array and returns a new array containing only the even numbers.
 
 For more details, please refer to the [README](src/filterEvenNumberInArray/README.md) inside the `src/filterEvenNumberInArray` directory.
+
+### Kata 7: convertToObjectAnArrayOfObjets
+
+This exercise combines all properties from an array of objects into a single object.
+
+For more details, please refer to the [README](src/convertToObjectAnArrayOfObjets/README.md) inside the `src/convertToObjectAnArrayOfObjets` directory.
 
 ## Development
 

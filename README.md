@@ -14,6 +14,7 @@
     - [Kata 6: filterEvenNumbers](#kata-6-filterEvenNumbers)
     - [Kata 7: mergeObjectsInArray](#kata-7-mergeObjectsInArray)
     - [Kata 8: filterObjects](#kata-8-filterobjects)
+    - [Kata 9: simulateFishGrowth](#kata-9-simulatefishgrowth)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -81,6 +82,12 @@ For more details, please refer to the [README](src/mergeObjectsInArray/README.md
 This exercise combines all properties from an array of objects into a single object.
 
 For more details, please refer to the [README](src/filterObjects/README.md) inside the `src/filterObjects` directory.
+
+### Kata 9: simulateFishGrowth
+
+This exercise simulates the growth of a school of lanternfish over a given number of days based on their reproduction cycle.
+
+For more details, please refer to the [README](src/simulateFishGrowth/README.md) inside the `src/simulateFishGrowth` directory.
 
 ## Development
 

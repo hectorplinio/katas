@@ -1,14 +1,13 @@
-# Leadtech Tasks
+# Katas Exercises
 
 ## Table of contents
 
-- [Leadtech Tasks](#leadtech-tasks)
+- [Katas Exercises](#katas-exercises)
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Usage](#usage)
-    - [Task 1: FizzBuzz](#task-1-fizzbuzz)
-    - [Task 2: Longest Consecutive Sequence](#task-2-longest-consecutive-sequence)
-    - [Task 3: User Registration](#task-3-user-registration)
+    - [Kata 1: extractBookNameFromArray](#kata-1-extractbooknamefromarray)
+    - [Kata 2: sumNumbersFromArray](#kata-2-sumnumbersfromarray)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -29,48 +28,17 @@
 
 This repository contains three exercises implemented in TypeScript using Node.js. Below are the details for each exercise and the necessary commands to run each one and their respective tests.
 
-### Task 1 FizzBuzz
+### Kata 1: extractBookNameFromArray
 
-This exercise prints numbers from 1 to n, but for multiples of 3, it prints "Fizz" instead of the number and for multiples of 5, it prints "Buzz". For numbers that are multiples of both, it prints "FizzBuzz".
+This exercise extracts all book names from an array of people, each with their own array of books.
 
-To run the FizzBuzz code, use the following command:
+For more details, please refer to the [README](src/extractBookNameFromArray/README.md) inside the `src/extractBookNameFromArray` directory.
 
-```
- npm run fizz-buzz 15
-```
+### Kata 2: sumNumbersFromArray
 
-### Task 2 Longest Consecutive Sequence
+This exercise sums all numbers in an array and returns the total.
 
-This exercise finds the longest consecutive sequence in an array of numbers.
-
-To run the Longest Consecutive Sequence exercise, use the following command:
-
-```
- npm run longest-consecutive "[100, 4, 200, 1, 3, 2]"
-```
-
-### Task 3 User Registration
-
-This exercise creates a small server using Express that allows user registration and validates input data using Yup. Users are stored in an in-memory array and a UUID is assigned to each registered user. A container using Awilix is created to use the dependency injector.
-
-To run the Longest Consecutive Sequence exercise, use these command:
-
-```
- npm run start
-```
-
-The server will be available at http://localhost:3000.
-
-You can make a request to the endpoint at http://localhost:3000/register with the POST method using the following body:
-
-```
-{
-    "email": "pepe2@gmail.com",
-    "name": "pepe"
-}
-```
-
-You will receive a 201 Created response if the registration is successful, or a 409 Conflict response if the email has already been used.
+For more details, please refer to the [README](src/sumNumbersFromArray/README.md) inside the `src/sumNumbersFromArray` directory.
 
 ## Development
 

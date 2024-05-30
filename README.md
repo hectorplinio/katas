@@ -10,6 +10,7 @@
     - [Kata 2: sumNumbersFromArray](#kata-2-sumnumbersfromarray)
     - [Kata 3: findMaxNumberFromArray](#kata-3-findmaxnumberfromarray)
     - [Kata 4: countHowManyTimesFromArray](#kata-4-counthowmanytimesfromarray)
+    - [Kata 5: flattenArray](#kata-5-flattenarray)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -53,6 +54,12 @@ For more details, please refer to the [README](src/findMaxNumberFromArray/README
 This exercise counts how many times each string appears in an array and returns an object with the counts.
 
 For more details, please refer to the [README](src/countHowManyTimesFromArray/README.md) inside the `src/countHowManyTimesFromArray` directory.
+
+### Kata 5: flattenArray
+
+This exercise flattens an array of arrays of numbers into a single array of numbers.
+
+For more details, please refer to the [README](src/flattenArray/README.md) inside the `src/flattenArray` directory.
 
 ## Development
 

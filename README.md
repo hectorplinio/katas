@@ -17,6 +17,7 @@
     - [Kata 9: simulateFishGrowth](#kata-9-simulatefishgrowth)
     - [Kata 10: uniqueValues](#kata-1-uniquevalues)
     - [Kata 11: keyValuePairsToObject](#kata-3-keyvaluepairstoobject)
+    - [Kata 12: arrayOfKeyValueObjectsToObject](#kata-4-arrayofkeyvalueobjectstoobject)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -102,6 +103,12 @@ For more details, please refer to the [README](src/uniqueValues/README.md) insid
 This exercise creates an object from an array of key-value pairs.
 
 For more details, please refer to the [README](src/keyValuePairsToObject/README.md) inside the `src/keyValuePairsToObject` directory.
+
+### Kata 12: arrayOfKeyValueObjectsToObject
+
+This exercise converts an array of objects where each object has a single key-value pair into a single object.
+
+For more details, please refer to the [README](src/arrayOfKeyValueObjectsToObject/README.md) inside the `src/arrayOfKeyValueObjectsToObject` directory.
 
 ## Development
 

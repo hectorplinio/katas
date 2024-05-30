@@ -1,16 +1,27 @@
-const initialObject: Record<string, string>[] = [
-  { name: 'apple', category: 'fruit' },
-  { name: 'carrot', category: 'vegetable' },
-  { name: 'banana', category: 'fruit' },
-  { name: 'broccoli', category: 'vegetable' },
+export interface InputParams {
+  name: string;
+  data: Record<string, string | number>;
+}
+
+const initialObject: InputParams[] = [
+  { name: 'apple', data: { category: 'fruit', quantity: 1 } },
+  { name: 'carrot', data: { category: 'vegetable', quantity: 5 } },
+  { name: 'banana', data: { category: 'fruit', quantity: 3 } },
+  { name: 'broccoli', data: { category: 'vegetable', quantity: 6 } },
+  { name: 'orange', data: { category: 'fruit', quantity: 0 } },
 ];
-export const filterObjets = (
-  inputParams: Record<string, string>[] = initialObject,
+
+export const filterObjects = (
+  inputParams: InputParams[] = initialObject,
   filterParam: string,
-): Record<string, string>[] => {
-  const inputParamsFiltered = inputParams.filter(
-    (object) => object.category === filterParam,
-  );
+): InputParams[] => {
+  const inputParamsFiltered = inputParams.reduce((acc, object) => {
+    const { category, quantity } = object.data;
+    if (category === filterParam && (quantity as number) > 0) {
+      acc.push(object);
+    }
+    return acc;
+  }, [] as InputParams[]);
 
   return inputParamsFiltered;
 };

@@ -11,6 +11,7 @@
     - [Kata 3: findMaxNumberFromArray](#kata-3-findmaxnumberfromarray)
     - [Kata 4: countHowManyTimesFromArray](#kata-4-counthowmanytimesfromarray)
     - [Kata 5: flattenArray](#kata-5-flattenarray)
+    - [Kata 6: filterEvenNumberInArray](#kata-6-filterevennumberinarray)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -60,6 +61,12 @@ For more details, please refer to the [README](src/countHowManyTimesFromArray/RE
 This exercise flattens an array of arrays of numbers into a single array of numbers.
 
 For more details, please refer to the [README](src/flattenArray/README.md) inside the `src/flattenArray` directory.
+
+### Kata 6: filterEvenNumberInArray
+
+This exercise filters the even numbers from an array and returns a new array containing only the even numbers.
+
+For more details, please refer to the [README](src/filterEvenNumberInArray/README.md) inside the `src/filterEvenNumberInArray` directory.
 
 ## Development
 

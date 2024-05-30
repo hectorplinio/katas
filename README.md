@@ -13,6 +13,7 @@
     - [Kata 5: flatten](#kata-5-flatten)
     - [Kata 6: filterEvenNumbers](#kata-6-filterEvenNumbers)
     - [Kata 7: mergeObjectsInArray](#kata-7-mergeObjectsInArray)
+    - [Kata 8: filterObjects](#kata-8-filterobjects)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -74,6 +75,12 @@ For more details, please refer to the [README](src/filterEvenNumbers/README.md) 
 This exercise combines all properties from an array of objects into a single object.
 
 For more details, please refer to the [README](src/mergeObjectsInArray/README.md) inside the `src/mergeObjectsInArray` directory.
+
+### Kata 8: filterObjects
+
+This exercise combines all properties from an array of objects into a single object.
+
+For more details, please refer to the [README](src/filterObjects/README.md) inside the `src/filterObjects` directory.
 
 ## Development
 

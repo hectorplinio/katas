@@ -19,6 +19,7 @@
     - [Kata 11: keyValuePairsToObject](#kata-11-keyvaluepairstoobject)
     - [Kata 12: arrayOfKeyValueObjectsToObject](#kata-12-arrayofkeyvalueobjectstoobject)
     - [Kata 13: convertToGroupedObject](#kata-13-converttogroupedobject)
+    - [Kata 14: countValueFrequency](#kata-14-countValueFrequency)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -116,6 +117,12 @@ For more details, please refer to the [README](src/arrayOfKeyValueObjectsToObjec
 This exercise converts an array of objects where each object has a key and a value into a single object where the keys are the unique values of the original keys and the values are arrays of the associated values.
 
 For more details, please refer to the [README](src/convertToGroupedObject/README.md) inside the `src/convertToGroupedObject` directory.
+
+### Kata 14: countValueFrequency
+
+This exercise counts how many times each value of a specific property appears in an array of objects.
+
+For more details, please refer to the README inside the src/countValueFrequency directory.
 
 ## Development
 

@@ -3,9 +3,11 @@
 ## Table of contents
 
 - [Katas Exercises](#katas-exercises)
+
   - [Table of contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Usage](#usage)
+
     - [Kata 1: extractBookNames](#kata-1-extractBookNames)
     - [Kata 2: sumNumbers](#kata-2-sumNumbers)
     - [Kata 3: findMaxNumber](#kata-3-findMaxNumber)
@@ -23,6 +25,10 @@
     - [Kata 15: twoSum](#kata-15-twoSum)
     - [Kata 16: isPalindrome](#kata-16-isPalindrome)
     - [Kata 17: fizzBuzz](#kata-17-fizzBuzz)
+    - [Kata 18: isAnagram](#kata-18-isAnagram)
+    - [Kata 19: binarySearch](#kata-19-binarySearch)
+    - [Kata 20: longestConsecutive](#kata-20-longestConsecutive)
+
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -144,6 +150,24 @@ For more details, please refer to the [README](src/isPalindrome/README.md) insid
 This exercise outputs the FizzBuzz representation of numbers from 1 to a given integer.
 
 For more details, please refer to the [README](src/fizzBuzz/README.md) inside the `src/fizzBuzz` directory.
+
+### Kata 18: isAnagram
+
+This exercise determines if two strings are anagrams, ignoring non-alphanumeric characters and case.
+
+For more details, please refer to the [README](src/isAnagram/README.md) inside the `src/isAnagram` directory.
+
+### Kata 19: binarySearch
+
+This exercise performs a binary search on a sorted array to find the target value.
+
+For more details, please refer to the [README](src/binarySearch/README.md) inside the `src/binarySearch` directory.
+
+### Kata 20: longestConsecutive
+
+This exercise finds the length of the longest consecutive elements sequence in an array.
+
+For more details, please refer to the [README](src/binarySearch/README.md) inside the `src/binarySearch` directory.
 
 ## Development
 

@@ -25,8 +25,8 @@ The function isPalindrome takes a string as input and returns a boolean indicati
 ### Code
 
 ```typescript
-export function isPalindrome(s: string): boolean {
-  const cleaned = s.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+export const isPalindrome = (inputPhrase: string = inputString): boolean => {
+  const cleaned = inputPhrase.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
   let left = 0;
   let right = cleaned.length - 1;
   while (left < right) {
@@ -37,7 +37,7 @@ export function isPalindrome(s: string): boolean {
     right--;
   }
   return true;
-}
+};
 ```
 
 ### Explanation

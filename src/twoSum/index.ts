@@ -1,10 +1,10 @@
 const initialObject: Array<number> = [2, 7, 11, 15];
 const targetDefault = 9;
 
-export function twoSum(
+export const twoSum = (
   nums: number[] = initialObject,
   target: number = targetDefault,
-): number[] {
+): number[] => {
   const map = new Map<number, number>();
   for (let i = 0; i < nums.length; i++) {
     const complement = target - nums[i];
@@ -14,4 +14,4 @@ export function twoSum(
     map.set(nums[i], i);
   }
   return [];
-}
+};

@@ -27,10 +27,10 @@ The function twoSum takes an array of numbers and a target value, then returns t
 ### Code
 
 ```typescript
-export function twoSum(
+export const twoSum = (
   nums: number[] = initialObject,
   target: number = targetDefault,
-): number[] {
+): number[] => {
   const map = new Map<number, number>();
   for (let i = 0; i < nums.length; i++) {
     const complement = target - nums[i];
@@ -40,7 +40,7 @@ export function twoSum(
     map.set(nums[i], i);
   }
   return [];
-}
+};
 ```
 
 ### Explanation

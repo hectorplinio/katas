@@ -25,6 +25,10 @@ const initialObject: Array<string> = [
 
 An object where the keys are the strings from the input array, and the values are the counts of how many times each string appears in the array.
 
+```typescript
+{ apple: 3, banana: 2, orange: 1 }
+```
+
 ### Solution
 
 The function countOccurrences takes an array of strings as input and returns an object with the counts. The function uses the reduce method to count the occurrences of each string.

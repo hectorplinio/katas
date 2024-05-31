@@ -20,6 +20,10 @@ const targetDefault = 9;
 
 An array containing the indices of the two numbers that add up to the target.
 
+```typescript
+[0, 1];
+```
+
 ### Solution
 
 The function twoSum takes an array of numbers and a target value, then returns the indices of the two numbers that add up to the target.

@@ -18,6 +18,10 @@ const initialObject: Array<number> = [1, 2, 3, 4, 5];
 
 A single number representing the maximum number in the input array.
 
+```typescript
+5;
+```
+
 ### Solution
 
 The function findMaxNumber takes an array of numbers as input and returns the maximum number. The function uses the reduce method to find the maximum number.

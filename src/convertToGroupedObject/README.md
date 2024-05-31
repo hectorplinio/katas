@@ -30,6 +30,10 @@ const initialObject: KeyValueObject[] = [
 
 A single object where the keys are the unique values of the original keys and the values are arrays of the associated values.
 
+```typescript
+{ fruit: ['apple', 'banana', 'orange'], vegetable: ['carrot', 'broccoli']}
+```
+
 ### Solution
 
 The function convertToGroupedObject takes an array of objects as input and returns a single object with grouped values. It uses the reduce method with Set to avoid duplicates, and then converts the Set to arrays.

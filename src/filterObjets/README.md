@@ -31,6 +31,13 @@ const filterParam: string = 'fruit';
 
 An array of objects that match the specified category and have a quantity greater than 0.
 
+```typescript
+[
+  { name: 'apple', data: { category: 'fruit', quantity: 1 } },
+  { name: 'banana', data: { category: 'fruit', quantity: 3 } },
+];
+```
+
 ### Solution
 
 The function filterObjects takes an array of objects and a category string as input and returns an array of objects that match the category and have a quantity greater than 0. The function uses the reduce method to filter the objects based on the specified criteria.

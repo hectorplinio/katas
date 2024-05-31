@@ -18,6 +18,10 @@ const initialObject: Array<number> = [2, 7, 11, 15];
 
 A single number representing the length of the longest consecutive elements sequence.
 
+```typescript
+1;
+```
+
 ### Solution
 
 The function longestConsecutive takes an array of numbers and returns the length of the longest consecutive elements sequence.

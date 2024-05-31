@@ -22,6 +22,10 @@ const initialObject: Array<Record<string, string | number>> = [
 
 A single object that combines all the key-value pairs from the input array of objects.
 
+```typescript
+{ name: 'John', surname: 'Doe', age: 21, birth: '22/01/2000', phone: '123456789', country: 'Spain' }
+```
+
 ### Solution
 
 The function mergeObjectsInArray takes an array of objects as input and returns a single combined object. The function uses the reduce method to merge all the objects into one.

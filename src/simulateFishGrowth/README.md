@@ -19,6 +19,10 @@ const initialObject: Array<number> = [3, 4, 3, 1, 2];
 
 An array of numbers representing the days remaining for each lanternfish after simulating the given number of days.
 
+```typescript
+[6, 8, 1, 1, 3, 0, 2, 2, 4, 6, 8, 1, 1, 3, 4, 6, 6, 8, 6, 8, 1, 5, 7, 0, 0, 2];
+```
+
 ### Solution
 
 The function simulateFishGrowth takes an array of numbers and an integer as input and returns an array of numbers after simulating the growth of the school of fish over the specified number of days. The function uses a loop to iterate over each day and the reduce method to update the fish timers.

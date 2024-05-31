@@ -25,6 +25,10 @@ const initialObject: KeyValueObject[] = [
 
 A single object created from the array of key-value objects.
 
+```typescript
+{ 0: 'fresas', 1: 'manzanas', 2: 'plátanos', 3: 'naranjas'}
+```
+
 ### Solution
 
 The function arrayOfKeyValueObjectsToObject takes an array of objects as input and returns a single object. It uses the reduce method to achieve this.

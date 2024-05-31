@@ -18,6 +18,10 @@ const initialObject: Array<number> = [1, 2, 3, 4, 5];
 
 A single number representing the sum of all numbers in the input array.
 
+```typescript
+15;
+```
+
 ### Solution
 
 The function sumNumbers takes an array of numbers as input and returns their sum. The function uses the reduce method to sum the numbers.

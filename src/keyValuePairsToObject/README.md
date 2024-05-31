@@ -24,6 +24,10 @@ const initialObject: KeyValuePair[] = [
 
 An object created from the key-value pairs.
 
+```typescript
+{ name: 'Alice', age: 25, city: 'New York' }
+```
+
 ### Solution
 
 The function keyValuePairsToObject takes an array of key-value pairs as input and returns an object. It uses the reduce method to achieve this.

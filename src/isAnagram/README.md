@@ -19,6 +19,10 @@ const inputParam2: string = 'nagaram';
 
 A boolean indicating whether t is an anagram of s.
 
+```typescript
+true;
+```
+
 ### Solution
 
 The function isAnagram checks if two strings are anagrams.

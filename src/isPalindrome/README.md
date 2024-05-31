@@ -18,6 +18,10 @@ const inputString: string = 'A man, a plan, a canal: Panama';
 
 A boolean value indicating whether the input string is a palindrome.
 
+```typescript
+true;
+```
+
 ### Solution
 
 The function isPalindrome takes a string as input and returns a boolean indicating whether it is a palindrome.

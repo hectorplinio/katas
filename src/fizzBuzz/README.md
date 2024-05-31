@@ -18,6 +18,26 @@ const n: number = 15;
 
 An array of strings with the FizzBuzz representation from 1 to n.
 
+```typescript
+[
+  '1',
+  '2',
+  'Fizz',
+  '4',
+  'Buzz',
+  'Fizz',
+  '7',
+  '8',
+  'Fizz',
+  'Buzz',
+  '11',
+  'Fizz',
+  '13',
+  '14',
+  'FizzBuzz',
+];
+```
+
 ### Solution
 
 The function fizzBuzz takes an integer n and returns an array of strings.

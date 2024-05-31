@@ -27,6 +27,10 @@ const initialObject: KeyValueObject[] = [
 
 An object containing the frequency of each value of the specified property.
 
+```typescript
+{ apple: 1, banana: 2, carrot: 1, broccoli: 1, orange: 1 }
+```
+
 ### Solution
 
 The function countValueFrequency takes an array of objects as input and returns an object with the frequency of each value for the specified property.

@@ -37,6 +37,19 @@ const initialObject: InputParams[] = [
 
 An array of strings, where each string is a book title extracted from the input array of people.
 
+```typescript
+[
+  'The Lord of the rings',
+  'The Hobbit',
+  'The Bible',
+  'The Bible',
+  'The Alchemist',
+  'The Da Vinci Code',
+  'The Twilight Saga',
+  'Alice in Wonderland',
+];
+```
+
 ### Solution
 
 An array of strings, where each string is a book title extracted from the input array of people.

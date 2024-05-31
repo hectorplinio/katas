@@ -19,6 +19,10 @@ const targetDefault = 9;
 
 The index of the target value if found, otherwise -1.
 
+```typescript
+3;
+```
+
 ### Solution
 
 The function binarySearch performs binary search on a sorted array.

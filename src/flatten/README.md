@@ -22,6 +22,10 @@ const initialObject: Array<Array<number>> = [
 
 A single array of numbers containing all the numbers from the input arrays.
 
+```typescript
+[1, 2, 3, 4, 5, 6, 7, 8, 9];
+```
+
 ### Solution
 
 The function flatten takes an array of arrays of numbers as input and returns a single flattened array of numbers. The function uses the reduce method to concatenate all the sub-arrays.

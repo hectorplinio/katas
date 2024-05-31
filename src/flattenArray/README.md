@@ -11,12 +11,16 @@ An array of numbers.
 ### Example
 
 ```typescript
-const initialObject: number[] = [1, 2, 2, 3, 4, 4, 5];
+const initialObject: number[] = [1, 2, 2, 3, 4, 4, 5, 41];
 ```
 
 ### Output
 
 A new array with only unique values.
+
+```typescript
+[1, 2, 3, 4, 5, 41];
+```
 
 ### Solution
 

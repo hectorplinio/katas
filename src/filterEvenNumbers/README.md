@@ -18,6 +18,10 @@ const initialObject: Array<number> = [1, 2, 3, 4, 5, 6, 8, 4, 2];
 
 A single array of numbers containing only the even numbers from the input array.
 
+```typescript
+[2, 4, 6, 8, 4, 2];
+```
+
 ### Solution
 
 The function filterEvenNumbers takes an array of numbers as input and returns an array of even numbers. The function uses the reduce method to filter out the even numbers.

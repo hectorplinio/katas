@@ -20,6 +20,9 @@
     - [Kata 12: arrayOfKeyValueObjectsToObject](#kata-12-arrayofkeyvalueobjectstoobject)
     - [Kata 13: convertToGroupedObject](#kata-13-converttogroupedobject)
     - [Kata 14: countValueFrequency](#kata-14-countValueFrequency)
+    - [Kata 15: twoSum](#kata-15-twoSum)
+    - [Kata 16: isPalindrome](#kata-16-isPalindrome)
+    - [Kata 17: fizzBuzz](#kata-17-fizzBuzz)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -122,7 +125,25 @@ For more details, please refer to the [README](src/convertToGroupedObject/README
 
 This exercise counts how many times each value of a specific property appears in an array of objects.
 
-For more details, please refer to the README inside the src/countValueFrequency directory.
+For more details, please refer to the [README](src/countValueFrequency/README.md) inside the `src/countValueFrequency` directory.
+
+### Kata 15: twoSum
+
+This exercise finds indices of two numbers in an array that add up to a given target.
+
+For more details, please refer to the [README](src/twoSum/README.md) inside the `src/twoSum` directory.
+
+### Kata 16: isPalindrome
+
+This exercise checks if a given string is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+For more details, please refer to the [README](src/isPalindrome/README.md) inside the `src/isPalindrome` directory.
+
+### Kata 17: fizzBuzz
+
+This exercise outputs the FizzBuzz representation of numbers from 1 to a given integer.
+
+For more details, please refer to the [README](src/fizzBuzz/README.md) inside the `src/fizzBuzz` directory.
 
 ## Development
 

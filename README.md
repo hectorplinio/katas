@@ -15,9 +15,10 @@
     - [Kata 7: mergeObjectsInArray](#kata-7-mergeObjectsInArray)
     - [Kata 8: filterObjects](#kata-8-filterobjects)
     - [Kata 9: simulateFishGrowth](#kata-9-simulatefishgrowth)
-    - [Kata 10: uniqueValues](#kata-1-uniquevalues)
-    - [Kata 11: keyValuePairsToObject](#kata-3-keyvaluepairstoobject)
-    - [Kata 12: arrayOfKeyValueObjectsToObject](#kata-4-arrayofkeyvalueobjectstoobject)
+    - [Kata 10: uniqueValues](#kata-10-uniquevalues)
+    - [Kata 11: keyValuePairsToObject](#kata-11-keyvaluepairstoobject)
+    - [Kata 12: arrayOfKeyValueObjectsToObject](#kata-12-arrayofkeyvalueobjectstoobject)
+    - [Kata 13: convertToGroupedObject](#kata-13-converttogroupedobject)
   - [Development](#development)
     - [Style guide](#style-guide)
     - [Testing](#testing)
@@ -109,6 +110,12 @@ For more details, please refer to the [README](src/keyValuePairsToObject/README.
 This exercise converts an array of objects where each object has a single key-value pair into a single object.
 
 For more details, please refer to the [README](src/arrayOfKeyValueObjectsToObject/README.md) inside the `src/arrayOfKeyValueObjectsToObject` directory.
+
+### Kata 13: convertToGroupedObject
+
+This exercise converts an array of objects where each object has a key and a value into a single object where the keys are the unique values of the original keys and the values are arrays of the associated values.
+
+For more details, please refer to the [README](src/convertToGroupedObject/README.md) inside the `src/convertToGroupedObject` directory.
 
 ## Development
 

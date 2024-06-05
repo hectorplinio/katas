@@ -28,6 +28,7 @@
     - [Kata 18: isAnagram](#kata-18-isAnagram)
     - [Kata 19: binarySearch](#kata-19-binarySearch)
     - [Kata 20: longestConsecutive](#kata-20-longestConsecutive)
+    - [Kata 21: validateParentheses](#kata-21-validateParentheses)
 
   - [Development](#development)
     - [Style guide](#style-guide)
@@ -167,7 +168,13 @@ For more details, please refer to the [README](src/binarySearch/README.md) insid
 
 This exercise finds the length of the longest consecutive elements sequence in an array.
 
-For more details, please refer to the [README](src/binarySearch/README.md) inside the `src/binarySearch` directory.
+For more details, please refer to the [README](src/longestConsecutive/README.md) inside the `src/longestConsecutive` directory.
+
+### Kata 21: validateParentheses
+
+This exercise takes a string and returns a boolean indicating whether the parentheses in the string are properly balanced.
+
+For more details, please refer to the [README](src/validateParentheses/README.md) inside the `src/validateParentheses` directory.
 
 ## Development
 
